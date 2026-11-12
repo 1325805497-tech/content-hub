@@ -8,7 +8,7 @@
 ## 这个仓库怎么用
 
 1. **有新想法** → 开一条 Issue，写清核心观点、目标人群、开头钩子
-2. **动笔写稿** → 先按 `templates/voice-and-structure.md`（**默认风格规范**：说话方式／格式／7 段结构／句式库／自检清单）写，成稿放 `scripts/年/月/`。只有要「教方法、列清单」时才用六段式备用模板 `templates/script-template.md`
+2. **动笔写稿** → 先按 `templates/voice-and-structure.md`（**默认风格规范**：说话方式／格式／7 段结构／句式库／自检清单）写，成稿放 `scripts/年/月/`。只有要「教方法、列清单」时才用六段式备用模板 `templates/script-template.md`。**定稿后**再按 `insights/expression-formulas.md` 加固标题／封面／前三秒（只改包装，正文不变）
 3. **录制发布** → 稿子定稿、录完、发出后，更新 Issue 上的状态标签
 4. **复盘沉淀** → 表现好的钩子和金句，回填进 `insights/hooks.md`
 
@@ -18,7 +18,7 @@
 |---|---|
 | `templates/` | **默认风格规范** `voice-and-structure.md`、六段式备用模板、选题卡模板 |
 | `scripts/年/月/` | 成稿归档，文件名 `MMDD-主题.md` |
-| `insights/` | 钩子与金句库，发布后回填 |
+| `insights/` | 钩子与金句库（`hooks.md`，发布后回填）；表达公式库（`expression-formulas.md`，写稿收尾加固标题／封面／前三秒） |
 
 ## 标签体系
 
