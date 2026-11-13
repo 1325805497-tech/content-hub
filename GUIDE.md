@@ -21,7 +21,7 @@
 
 ---
 
-## 二、四类东西别放混
+## 二、五类东西别放混
 
 | 类别 | 放哪 | 特点 |
 |---|---|---|
@@ -29,6 +29,7 @@
 | 运营经验 | `notes/` | 判断、代价、取舍；**不是口播素材，不照抄** |
 | 钩子与金句 | `insights/hooks.md` | 发布后回填；未成稿的开头放「灵感钩子」区 |
 | 成稿 | `scripts/年/月/` | `MMDD-主题.md`，上半部分可直接念 |
+| 已发布成稿 | `published/` | 发出去之后的逐字留档＋封面／字幕／话题／评论，**不改、不润色**，只补归档备注 |
 
 一条 Issue = 一个选题；至少两个标签：一个领域 + 一个状态。
 
@@ -44,6 +45,7 @@
 | 钩子与金句 | `https://github.com/1325805497-tech/content-hub/blob/main/insights/hooks.md` |
 | 选题清单 | `https://github.com/1325805497-tech/content-hub/issues`（开放列表 = 未完成选题） |
 | 本月成稿 | `https://github.com/1325805497-tech/content-hub/tree/main/scripts/2026/11` |
+| 已发布归档 | `https://github.com/1325805497-tech/content-hub/tree/main/published` |
 | 默认写稿规范 | `https://github.com/1325805497-tech/content-hub/blob/main/templates/voice-and-structure.md` |
 
 想不起文件在哪，直接问我「XX 在哪」。
@@ -80,7 +82,7 @@ gh api repos/1325805497-tech/content-hub/contents/materials --jq '.[].name'
 3. **引用合规**：记不清原话就写「大概意思是」；引书用「让我想到了……一个理念」，不报章页、不称原话、不编书名作者。
 4. **原话照留**：口述笔误（如「直知皮毛」）只标注、不改写，写稿时再顺。
 5. **发布只复制正文**：成稿 `---` 下面的「内部存档」不要念、不要发。
-6. **发布后**：把表现好的钩子金句回填 + 更新 Issue 状态标签（待写稿 → 写作中 → 待录制 → 已发布）。
+6. **发布后**：把表现好的钩子金句回填 + 更新 Issue 状态标签（待写稿 → 写作中 → 待录制 → 已发布）；已发出去的正文与配套物料另存一份到 `published/`，逐字留档不改。
 
 ---
 
