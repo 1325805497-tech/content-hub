@@ -16,6 +16,7 @@
 | `金句：……`（发布后） | 回填金句，标 Issue 编号与表现 | `insights/hooks.md` |
 | `写稿：#6` ／ `把 #6 写成稿` | 按默认 7 段规范出成稿 + 内部存档区 | `scripts/年/月/` |
 | `看看素材` ／ `看看选题` ／ `最近存了啥` ／ `找一下 XX` | 列清单或搜内容 | 只读，不改 |
+| `看看待写清单` ／ `还有什么能写` | 列出 `notes/待写清单.md` 的 5 条与当前状态 | 只读，不改 |
 
 **没加前缀也行**：我会按内容判断；判断错了直接说「这个放 notes」／「这是口播素材」，我改过来。
 
@@ -44,6 +45,7 @@
 | 运营经验笔记 | `https://github.com/1325805497-tech/content-hub/tree/main/notes` |
 | 钩子与金句 | `https://github.com/1325805497-tech/content-hub/blob/main/insights/hooks.md` |
 | 选题清单 | `https://github.com/1325805497-tech/content-hub/issues`（开放列表 = 未完成选题） |
+| 待写清单（接下来写什么） | `https://github.com/1325805497-tech/content-hub/blob/main/notes/待写清单.md` |
 | 本月成稿 | `https://github.com/1325805497-tech/content-hub/tree/main/scripts/2026/11` |
 | 已发布归档 | `https://github.com/1325805497-tech/content-hub/tree/main/published` |
 | 默认写稿规范 | `https://github.com/1325805497-tech/content-hub/blob/main/templates/voice-and-structure.md` |
